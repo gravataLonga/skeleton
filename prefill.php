@@ -4,14 +4,14 @@ define('COL_HELP', 1);
 define('COL_DEFAULT', 2);
 
 $fields = [
-    'author_name' =>            ['Jonathan Fontes', '', ''],
-    'author_github_username' => ['gravataLonga',  '<username> in https://github.com/username', ''],
-    'author_email' =>           ['jonathan.alexey16@gmail.com', '', ''],
-    'author_twitter' =>         ['Gravatalonga', '', '@{author_github_username}'],
-    'author_website' =>         ['https://jonathan.pt', '', 'https://github.com/{author_github_username}'],
+    'author_name' =>            ['Author Name', '', ''],
+    'author_github_username' => ['Github Username',  '<username> in https://github.com/username', ''],
+    'author_email' =>           ['Author E-mail', '', ''],
+    'author_twitter' =>         ['Author Twitter', '', '@{author_github_username}'],
+    'author_website' =>         ['Author Website', '', 'https://github.com/{author_github_username}'],
 
-    'package_vendor' =>         ['gravataLonga', '<vendor> in https://github.com/vendor/package', '{author_github_username}'],
-    'package_name' =>           ['Package name', '<package> in https://github.com/vendor/package', ''],
+    'package_vendor' =>         ['Package Vendor', '<vendor> in https://github.com/vendor/package', '{author_github_username}'],
+    'package_name' =>           ['Package Name', '<package> in https://github.com/vendor/package', ''],
     'package_description' =>    ['Package very short description', '', ''],
 
     'psr4_namespace' =>         ['PSR-4 namespace', 'usually, Vendor\\Package', '{package_vendor}\\{package_name}'],
