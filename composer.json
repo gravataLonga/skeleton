@@ -38,8 +38,7 @@
     },
     "scripts": {
         "phpstan": "phpstan analyze -l max src",
-        "check-style": "phpcs src tests",
-        "fix-style": "phpcbf src tests",
+        "fix-style": "php-cs-fixer src tests",
         "test": "XDEBUG_MODE=coverage phpunit"
     },
     "extra": {
